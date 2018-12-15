@@ -1,0 +1,19 @@
+苹果lightning接口
+苹果的lightning接口（闪电接口）是苹果公司(Apple Inc .)独有的为Apple一系列新产品开发的新数据线接口，Lighting数据线接口从iPhone 5、iPod touch 5g、iPad mini开始使用，iphone6、iphone6s甚至是新上市的iphone7和iPhone 7 Plus都采用的充电和数据线接口。Lightning数据线接口早于USB Type-c数据线接口问世，Lightning接口最大的特点是正反面都可以插，USB TYPE-C接口后来应该是借鉴了Apple的这一做法，目的是提高接口的易用性和便利性。
+
+苹果lightning接口的针脚定义
+Lightning接口拥有两个通过芯片控制的独立差分通路，也就是我们所看到的lightning接口上的8个触点，两边的触点通过内部通路连通。下面来看看每个通路的针脚定义。
+
+
+1脚：GND
+2脚：L0p
+3脚：L0n
+4脚：ID0
+5脚：PWR
+6脚：L1n
+7脚：L1p
+8脚：ID1
+下图给我们展示了Lightning接口双面8个针脚的定义，可以从原理图中看到Lightning接口真的是USB TYPE-C的鼻祖，区别在于Lightning接口是单面八针，而TYPE-C接口是单面12针。图中A面的1脚与B面4脚连通；A面的4脚与B面5脚连通；A面的5脚与B面的8脚连通；A面8脚与B面1脚连通。这样的内部构造就决定了用户不管插那一面都能保证数据线正常工作了。
+
+
+再看上图为lightning数据线接口的母座，它只有单面有8个触点。它和TYPE-C接口的区别是TYPE-C接口的母座是双面都有12根针脚，有兴趣的可查看USB TYPE-C数据线接口定义这篇文章。据说Apple的Lightning数据线内部设置有认证芯片，但经过实际使用，国内的山寨数据线在5V 1A的充电器或者电脑USB接口上使用时，iphone会提示未经认证的电缆，但在车载充电器上使用好像不存在这样的问题。国内山寨线缆其实也有质量不错的。
